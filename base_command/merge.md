@@ -24,12 +24,12 @@ git rebase сливает вашу ветку в выбираемую ветку
 или изменена история текущих коммитов. 
 ```
 git rebase master
-(m3) <- (m2) <- (m1) <- (dev2) <- (dev1)
+(m.com3) <- (m.com2) <- (m.com1) <- (dev.com2) <- (dev.com1)
 ```
 or
 ```
 git rebase dev
-(dev2) <- (dev1) <- (m3) <- (m2) <- (m1)
+(dev.com2) <- (dev.com1) <- (m.com3) <- (m.com2) <- (m.com1)
 ```
 
 ### Изменение истории коммитов
