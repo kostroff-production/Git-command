@@ -264,3 +264,9 @@ git tag -d name_tag
 git push --delete name_app name_tag
 ```
 
+## git reset
+Откатить до коммита
+```
+git reset "commit"
+```
+
